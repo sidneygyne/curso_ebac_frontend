@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+body>header {
+    background-color: #2f3640;
+    padding: 16px 0px;
+    color: #f5f6fa;
+    /* position: fixed; */
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-weight: bold;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header li a:hover {
+    color: rgb(0, 191, 220);
+}
+
+section {
+    padding: 16px 0px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+section .container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+    margin: 8px, 0px;
+}
+
+.articles article img {
+    height: 180px;
+    width: 270px;
+
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article time {
+    font-size: smaller;
+    font-style: italic;
+    color: rgb(71, 71, 71)
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#sports {
+    background-color: rgba(0, 70, 0, 0.11);
+}
+
+#sports .articles article a {
+    background-color: green;
+}
+
+#economy {
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+#economy .articles article a {
+    background-color: orange;
+}
+
+#tecnology {
+    background-color: rgba(217, 39, 245, 0.1);
+}
+
+#tecnology .articles article a {
+    background-color: rgba(126, 8, 144, 0.7);
+}
+
+#cinema {
+    background-color: rgba(186, 2, 2, 0.1);
+}
+
+#cinema .articles article a {
+    background-color: rgba(209, 15, 15, 0.72);
+}
+
+footer {
+    text-align: center;
+    background-color: #2f3640;
+    padding: 16px 0px;
+    color: #f5f6fa;
+    width: 100%;
+}
